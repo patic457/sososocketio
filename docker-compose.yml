@@ -3,6 +3,6 @@ services:
     container_name: sososocketio
     image: patic457/sososocketio
     ports:
-    # - 3071:4071
-    - 80:4100
+    - 3071:4071
+    - 3100:4100
 version: '3'
