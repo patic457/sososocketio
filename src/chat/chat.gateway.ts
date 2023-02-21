@@ -29,10 +29,16 @@ export class ChatGateway implements OnGatewayConnection, OnGatewayDisconnect {
   @SubscribeMessage('createProductOrder')
   async onChat(client, message) {
     this.logger.log(message);
-    // const message = "{'text':'Hi'}";
+    console.log(message);
 
-    client.broadcast.emit('message', message);
+    client.broadcast.emit('productOrderCreated', "{'res':'ok'}");
   }
+
+  // async onAns(client) {
+  //   const message = "{'text':'Hi'}";
+  //   this.logger.log(message);
+  //   client.broadcast.emit('productOrderCreated', message);
+  // }
 
   test(): Promise<any> {
     return new Promise(resolve => {
