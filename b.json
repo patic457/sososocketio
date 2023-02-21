@@ -1,0 +1,16 @@
+{
+  "resultCode": "20000",
+  "resultDesc": "Success",
+  "developerMessage": "Success",
+  "data": {
+    "applicationResults": [
+      {
+        "packageId": "1051",
+        "accessNum": "*111",
+        "resultDesc": "ดำเนินการเรียบร้อย ขอบคุณที่ใช้บริการ",
+        "status": "Success"
+      }
+    ],
+    "effstartdt": "020323000100"
+  }
+}
